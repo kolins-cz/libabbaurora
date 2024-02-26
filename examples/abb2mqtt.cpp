@@ -211,7 +211,7 @@ int main(int argc, char *argv[])
         publishValue(booster_temp, "aurora/booster_temp", mosq);
 
         //-----------wait here one second-------------------------------------------------------------------------------------
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::seconds(2));
     }
     //-----------end-------------------------------------------------------------------------------------
     std::cout.flags(old_settings);
