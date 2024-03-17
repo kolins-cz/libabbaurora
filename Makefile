@@ -89,7 +89,7 @@ clean:
 
 # define install directories
 ifeq ($(PREFIX),)
-  PREFIX = /usr/local
+  PREFIX = /usr
 endif
 
 install: all
